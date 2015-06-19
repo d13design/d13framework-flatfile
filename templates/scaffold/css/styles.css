@@ -1,0 +1,111 @@
+/* Reset */
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 13px; }
+
+/* Header */
+#header {
+  background-color: deepskyblue;
+  padding: 10px 20px;
+  height: 60px; }
+  #header h1 {
+    font-size: 30px;
+    line-height: 60px;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0; }
+    #header h1 a {
+      color: aliceblue;
+      text-decoration: none; }
+    #header h1 a:hover {
+      color: #fff;
+      text-decoration: underline; }
+  #header nav {
+    float: right;
+    display: inline-block; }
+    #header nav ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none; }
+      #header nav ul li {
+        display: inline;
+        font-size: 14px;
+        line-height: 60px; }
+        #header nav ul li a {
+          display: inline-block;
+          margin: 0px 0px 0px 8px;
+          color: aliceblue;
+          text-decoration: none; }
+        #header nav ul li a:hover {
+          color: #fff;
+          text-decoration: underline; }
+
+/* Banner */
+#banner {
+  background-color: darkcyan;
+  padding: 60px;
+  color: #fff;
+  text-align: center;
+  background-image: url(../img/sky-blue.jpg);
+  background-position: center;
+  background-size: cover; }
+  #banner h3 {
+    font-size: 60px;
+    line-height: 80px;
+    padding: 0;
+    margin: 0; }
+  #banner p {
+    font-size: 22px;
+    line-height: 40px;
+    padding: 0;
+    margin: 0; }
+
+/* Content */
+#content {
+  padding: 20px; }
+  #content a {
+    color: deepskyblue;
+    text-decoration: none; }
+  #content a:hover {
+    text-decoration: underline; }
+
+/* Pagination */
+.pagination {
+  text-align: center; }
+  .pagination ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    .pagination ul li {
+      display: inline; }
+      .pagination ul li a {
+        display: inline-block;
+        margin: 0px 4px; }
+    .pagination ul li.disabled a {
+      cursor: default;
+      text-decoration: none;
+      color: #999 !important; }
+    .pagination ul li.disabled a:hover {
+      text-decoration: none !important; }
+    .pagination ul li.active a {
+      font-weight: bold;
+      color: #000 !important; }
+
+/* Footer */
+#footer {
+  background-color: deepskyblue;
+  padding: 10px 20px;
+  height: 60px; }
+  #footer p {
+    color: aliceblue;
+    font-size: 12px;
+    text-align: center;
+    line-height: 60px;
+    margin: 0;
+    padding: 0; }
+
+/*# sourceMappingURL=styles.css.map */
